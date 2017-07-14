@@ -1,0 +1,26 @@
+{
+    "name": "wb7/fancybox-component",
+    "description": "Clone of fancyapps/fancybox as a component",
+    "type": "library",
+    "homepage": "https://github.com/wb7/fancybox-component",
+    "version": "3",
+    
+    "require": {
+		"robloach/component-installer": "*",
+		"components/jquery": "^3.0"
+    },  
+	"extra": {
+        "component": {
+            "scripts": [
+                "js/jquery.fancybox.js"
+            ],
+            "styles": [
+                "css/jquery.fancybox.css"
+            ],
+            "files": [
+                "js/jquery.fancybox.min.js",
+                "css/jquery.fancybox.min.css"
+            ]
+        }
+    }
+} 
